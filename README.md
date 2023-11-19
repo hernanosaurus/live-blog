@@ -14,4 +14,5 @@ Mobile:
 # To run
 - Clone repository
 - run `cd app` on the terminal to go inside the `app` folder.
+- run `npm install` to install all dependencies.
 - run `npm run dev` to run locally.
