@@ -1,0 +1,12 @@
+.BlogPost {
+  display: flex;
+  align-items: flex-start;
+
+  gap: 24px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+}

@@ -1,0 +1,24 @@
+.SocialEmbed {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  padding: 8px 0;
+
+  &.twitter {
+    & div:nth-child(2) {
+      width: 100%;
+
+      align-self: center;
+
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  iframe {
+    width: 100% !important;
+    min-width: 330px;
+  }
+}

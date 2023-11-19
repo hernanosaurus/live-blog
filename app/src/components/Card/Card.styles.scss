@@ -1,0 +1,23 @@
+.Card {
+  position: relative;
+
+  max-width: 680px;
+
+  border: 1px solid #e9edf1;
+  border-radius: 8px;
+  box-sizing: border-box;
+
+  overflow: hidden;
+
+  .CardHeader {
+    border-top: 8px solid;
+    box-sizing: border-box;
+
+    height: 31px;
+  }
+
+  .CardBody {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,15 @@
+.Pinned {
+  pointer-events: none;
+  svg {
+    margin-right: 6px;
+  }
+
+  &.default {
+    color: #fff;
+    background-color: #0c355f;
+  }
+  &.hot {
+    color: #fff;
+    background-color: #a30c27;
+  }
+}
