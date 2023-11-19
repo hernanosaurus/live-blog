@@ -31,10 +31,26 @@ function SocialEmbed({ post }: PostProps) {
         />
       )}
       {platform === "instagram" && (
-        <InstagramEmbed url={url} width={328} embedPlaceholder={<></>} />
+        <InstagramEmbed
+          url={url}
+          width={328}
+          embedPlaceholder={
+            <div>
+              <Spinner />
+            </div>
+          }
+        />
       )}
       {platform === "youtube" && (
-        <YouTubeEmbed url={url} width="100%" embedPlaceholder={<></>} />
+        <YouTubeEmbed
+          url={url}
+          width="100%"
+          embedPlaceholder={
+            <div>
+              <Spinner />
+            </div>
+          }
+        />
       )}
     </div>
   );
